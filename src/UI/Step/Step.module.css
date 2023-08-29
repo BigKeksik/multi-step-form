@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 35px;
+}
+
+.number {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    border-radius: 100px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.numberText {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.numberActive {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    border-radius: 100px;
+    background-color: rgb(186,224,239);
+}
+
+.numberTextActive {
+    font-weight: 600;
+}
+
+.stepInfoContainer {
+
+}
+
+.stepText {
+    color: rgb(163,162,255);
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+
+.labelText {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+}

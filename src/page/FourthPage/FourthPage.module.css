@@ -1,0 +1,59 @@
+.container {
+    width: 380px;
+    background-color: rgb(248,249,254);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.planBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan {
+    margin: 0;
+    font-weight: 500;
+}
+
+.grayTextPointer {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(160,160,171);
+    cursor: pointer;
+}
+
+.grayText {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(160,160,171);
+}
+
+.planCost {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.grayBorder {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.totalCostBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 20px;
+}
+
+.totalCost {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(98,88,205);
+}

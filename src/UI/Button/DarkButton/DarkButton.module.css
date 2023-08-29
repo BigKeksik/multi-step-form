@@ -1,0 +1,42 @@
+.container {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: rgb(3,40,89);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: rgb(12,57,113);
+}
+
+.container:active {
+    background-color: rgb(22,75,137);
+}
+
+.confirmContainer {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: rgb(73,62,253);
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+.confirmContainer:hover {
+    background-color: rgb(111,101,254);
+}
+
+.confirmContainer:active {
+    background-color: rgb(148,140,255);
+}
+
+.label {
+    color: rgb(245,255,255);
+    font-weight: 500;
+}

@@ -1,0 +1,13 @@
+.button {
+    color: rgba(11,46,92, 0.5);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgba(11,46,92, 0.7)
+}
+
+.button:active {
+    color: rgba(11,46,92, 1)
+}

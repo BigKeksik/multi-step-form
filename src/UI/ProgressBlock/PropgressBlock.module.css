@@ -1,0 +1,9 @@
+.container {
+    width: 274px;
+    height: 568px;
+    background-image: url('../../image/bg-sidebar-desktop.svg');
+}
+
+.stepBlock {
+    margin: 45px 30px;
+}

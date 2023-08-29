@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px 0 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgb(248,249,254);
+}
+
+.activeText {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(161,161,171);
+}
+
+.choiceContainer {
+    width: 40px;
+    height: 20px;
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
+    background-color: rgb(2,41,91);
+}
+
+.choiceBall {
+    width: 12px;
+    height: 12px;
+    margin: 4px 0 4px 24px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    transition: margin 0.2s ease-in;
+}

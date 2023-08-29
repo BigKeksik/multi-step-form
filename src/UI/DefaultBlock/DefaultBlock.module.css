@@ -1,0 +1,42 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(238,245,255);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.infoContainer {
+    position: relative;
+    margin: 30px 70px 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.grayText {
+    color: rgb(156,157,161);
+}
+
+.buttonBlock {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.goBackButtonBlock {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
